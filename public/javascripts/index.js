@@ -1,4 +1,5 @@
-const domain = "http://localhost:3000"
+// const domain = "http://localhost:3000"
+const domain = "https://weather-app-sevakon.herokuapp.com"
 
 window.addEventListener("load", function () {
     refreshLocation();
