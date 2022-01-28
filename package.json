@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2"
   }
 }
