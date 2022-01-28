@@ -1,0 +1,22 @@
+{
+  "name": "web2021",
+  "version": "1.0.0",
+  "description": "ITMO Web Course Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevakon/web2021.git"
+  },
+  "author": "Seva Konyakhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sevakon/web2021/issues"
+  },
+  "homepage": "https://github.com/sevakon/web2021#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
