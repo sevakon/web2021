@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sevakon/web2021#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "pg": "^8.5.1"
   }
 }
