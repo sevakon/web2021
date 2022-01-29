@@ -1,5 +1,6 @@
 const https = require('https')
 const database = require('./database')
+require("dotenv").config();
 const apiKey = process.env.API_KEY
 
 function makeRequest(url, callback, errorCallback) {
