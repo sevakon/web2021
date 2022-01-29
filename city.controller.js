@@ -1,6 +1,6 @@
-const apiKey = "e965dcc34bddc78d804da2512e1dcefb"; //TODO: move to env variables
 const https = require('https')
 const database = require('./database')
+const apiKey = process.env.API_KEY
 
 function makeRequest(url, callback, errorCallback) {
     https.get(url, (resp) => {
